@@ -1,0 +1,44 @@
+/*  CSS Document  */
+
+/*  This file was provided as part of a weekly web design tutorial series.
+	Sign-up for our newsletter, at http://codifydesign.com, to be notified
+	about each new episode of Creating Web Media
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Gravitas+One|Noto+Serif');
+
+body {
+	margin: 0; padding: 0; background-color: #e9f5f2;
+	font-family: 'Noto Serif', serif; font-size: 16px;
+	line-height: 1.3em; color: #1d5b61;
+}
+
+h2 { font-size: 1.4em; margin: 0 0 .5em 0; clear: left; }
+
+h3 { font-size: 1.1em; margin: 0 0 .1em 0; }
+
+p { margin: 0 0 1em 0; }
+
+a { color: #9e1c0a; }
+
+article { margin: 40px; }
+
+header {
+	margin: 0;
+	padding: 1px 0;
+	background: #4b8e9c url(images/banner.jpg) no-repeat 0 0;
+	background-size: cover;
+}
+
+header h1 {
+	font-family: 'Gravitas One', cursive;
+	font-size: 3em;
+	color: #fff;
+	font-weight: 400;
+	margin: 115px 0 30px 40px;
+	position: relative;
+}
+
+header a {
+	color: #fff;
+}

@@ -1,0 +1,54 @@
+/*  This file was provided as part of a weekly web design tutorial series.
+	Sign-up for our newsletter, at http://codifydesign.com, to be notified
+	about each new episode of CSS Shorts  
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Baloo|Montserrat');
+
+body {
+	font-family: 'Montserrat', sans-serif;	
+	font-size: 18px;
+	line-height: 1.5em;
+	margin: 0;
+	padding: 0;
+}
+
+
+h1 {
+	font-family: 'Baloo', cursive;
+	font-size: 5.5em;
+	line-height: 1.1;
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+
+header {
+	background-image: url(images/sprinkles.svg);
+	background-color: #B50086; 
+	padding: 80px 0 0 0;
+}
+
+
+main {
+	margin: 25px 40px 0 45px;
+	display: block;
+}
+
+main img {
+	float: right;
+	width: 40%;
+	max-width: 300px;
+	min-width: 150px;
+	margin: 0 -15px 20px 20px;
+}
+
+
+@media screen and (max-width:600px) {
+	
+	h1 { font-size: 4em; }
+	
+}
+

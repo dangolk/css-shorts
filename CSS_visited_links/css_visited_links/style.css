@@ -1,0 +1,24 @@
+/*  CSS Document  */
+
+/*  This file was provided as part of a weekly web design tutorial series.
+	Sign-up for our newsletter, at http://codifydesign.com, to be notified
+	about each new episode of CSS Shorts  
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,900');
+html { height: 100%; font-family: 'Raleway', sans-serif; } 
+body { font-size: 18px; line-height: 1.25em; background: #e5e5e5 url(images/author_page.jpg) no-repeat 0 top;
+	background-size: contain; color: #555; }
+article { padding: 30px 30px 0px 35%;	width: 60%;	}
+h1 { margin: 0; font-size: 1.8em; font-weight: normal; }
+h2 { margin: .5em 0 1em 0; font-size: 1.4em; }
+ul { margin: 0 0 1em 0; }
+li { margin: 0 0 1.2em 0; }
+
+a {
+	color: #008bcb;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}

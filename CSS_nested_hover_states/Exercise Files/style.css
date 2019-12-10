@@ -1,0 +1,78 @@
+/*  CSS Document  */
+
+/*  This file was provided as part of a weekly web design tutorial series.
+	Sign-up for our newsletter, at http://codifydesign.com, to be notified
+	about each new episode of CSS Shorts  
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,600,400,400italic);
+
+body {
+	margin: 0; padding: 0;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px; line-height: 1.25em; color: #625c3c;
+	background-color: #fff;
+}
+p { font-size: 1.1em; line-height: 1.6em; margin: 15px 15%; }
+header { text-align: center; padding: 0px 0 15px 0; background-color: #e7e2c9; }
+header::before {
+	content: '';
+	display: block;
+	height: 70px; margin-bottom: 15px;
+	background: #000 url(images/cityscape.jpg) no-repeat center -15px;
+}
+header h1 {
+	color: #000;
+	font-weight: 300;
+	font-size: 1.5em;
+	background: url(images/paris.svg) no-repeat 51% .9em;
+	background-size: 350px auto;
+	padding: 0 0 60px 0;
+	margin: 0;
+}
+
+header h1 span { display: none; }
+
+main { margin: 25px 10px; text-align: center; }
+
+a.landmark {
+	display: inline-block;
+	border: 5px solid #e7e2c9;
+	margin: 8px;
+	position: relative;
+	width: 170px;
+	height: 170px;
+}
+
+a.landmark img {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: inherit;
+	height: inherit;
+}
+
+a.landmark > span {
+	display: block;
+	width: inherit;
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	text-align: center;
+	background-color: rgba(0,0,0,.5);
+	line-height: 2.5em;
+	color: rgba(255,255,255,.8);
+	text-transform: uppercase;
+	font-size: .9em;
+}
+
+a.landmark > span em {
+	font-style: italic;
+	margin-top: -13px;
+	color: rgba(255,255,255,.5);
+	font-size: .9em;
+	display: none;	
+}
+
+
+

@@ -1,0 +1,46 @@
+/*  This file was provided as part of a weekly web design tutorial series.
+	Sign-up for our newsletter, at http://codifydesign.comnewsletter,
+	to be notified about new episodes.
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Bellefair|Dancing+Script');
+
+html{
+	font-size: 18px;
+	line-height: 1.6;
+}
+
+body {
+	background-color: #a7be6c;
+	font-family: 'Bellefair', serif;
+}
+
+h1 {
+	font-family: 'Dancing Script', cursive;
+	font-size: 3.5rem;
+	line-height: 1.5;
+	margin: 0 -255px 1.5rem 0;
+	padding-bottom: 0;
+	border-bottom: 2px solid #a7be6c;
+	color: #f87424;
+}
+
+p {
+	margin: 0 0 1rem 0;
+}
+
+article {
+	margin: 50px 20px;
+	background-color: #fff;
+	border-radius: 20px;
+	padding: 20px 30px 20px 30px;
+	position: relative;
+	overflow: hidden;
+}
+
+img {
+	width: 400px;
+}
+
+
+

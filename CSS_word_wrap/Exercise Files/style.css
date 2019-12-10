@@ -1,0 +1,102 @@
+/* CSS */
+
+/*  This file was provided as part of a weekly web design tutorial series.
+	Sign-up for our newsletter, at http://codifydesign.com, to be notified
+	about new episodes.
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Arvo:400,700|Roboto:300');
+
+
+body {
+	font-family: 'Roboto', serif;
+	font-size: 300;
+	font-size: 16px;
+	line-height: 1.3em;
+	background-color: #434343;
+	color: #9a9a9a;
+}
+
+h1 {
+	font-family: 'Arvo', serif;
+	flex: 1 1 100%;
+	font-size: 3em; 
+	font-weight: 700;
+	color: #fff; 
+}
+
+h2 {
+	font-family: 'Arvo', serif;
+	font-size: 1.4em;
+	font-weight: 400;
+	margin: 50px 0 .5em 0;
+}
+
+h3 {
+	font-family: 'Arvo', serif;
+	font-size: 1.2em;
+	font-weight: 400;
+	margin: 5px 0 .3em 0;
+	color: #fff;
+}
+
+p {
+	margin: 0 0 1em 0;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+main {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 25px;
+}
+
+article {
+	padding: 0 10px 0 0;
+	box-sizing: border-box;
+}
+
+aside {
+	padding: 0 0 0 20px;
+	box-sizing: border-box;
+	border-left: 1px solid #888;	
+}
+
+aside p {
+	line-height: .95rem;
+}
+
+aside p a {
+	font-size: .8em;
+}
+
+aside p a:hover {
+	color: #999;
+}
+
+aside img {
+	width: 100%;
+	margin-top: 35px;
+}
+
+aside img:first-of-type {
+	margin-top: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,54 @@
+/* CSS */
+
+/*  This file was provided as part of a weekly web design tutorial series.
+	Sign-up for our newsletter, at http://codifydesign.com, to be notified
+	about new episodes.
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Pacifico');
+
+
+body {
+	font-family: 'Merriweather', serif;
+	text-align: center;	
+	background-color: #597c2a;
+	font-size: 16px;
+}
+
+article {
+	margin: 25px;
+	padding: 25px 25px 30px 25px;
+	border: 2px solid rgba(255,255,255,.7);
+	border-radius: 15px;
+	background-color: rgba(255,255,255,.8);
+}
+
+figure {
+	display: block;
+	height: 125px;
+	margin: -25px -25px 10px -25px;
+	background: url(images/banner.jpg) no-repeat center center;
+	background-size: cover;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+
+h1 {
+	font-family: 'Pacifico', cursive;
+	color: #3d5c50;
+	font-size: 2.4em; 
+	margin: 0 0 .7rem 0;
+}
+
+p {
+	margin: 0 0 1.2em 0;
+}
+
+a {
+	color: #1ead9b;
+	text-decoration: none;
+}
+
+
+
+

@@ -1,0 +1,98 @@
+/* CSS Document */
+
+/*  This file was provided as part of a weekly web design tutorial series.
+	Sign-up for our newsletter, at http://codifydesign.com, to be notified
+	about new episodes.
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed|Roboto+Slab:700');
+
+body {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 14px;
+	color: #fff;
+	background: url(images/globe_white.png) #0099cc no-repeat right bottom; 
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #003366;
+	padding: 20px 0 20px 35px;
+}
+
+header h1 {
+	font-family: 'Roboto Slab', serif;
+	font-size: 2em;
+	text-transform: uppercase;
+	margin: 0 0 -3px 0;
+}
+
+header p {
+	font-size: 1.2em;
+	margin: 0;
+}
+
+article {
+	padding: 0 0 50px 90px;	
+}
+
+.source {
+	font-size: .8em;
+	font-style: italic;
+	margin: 25px 0 0 75px;
+}
+
+
+ol.country {
+	margin: 0;
+	padding: 0;
+}
+
+ol.country li {
+	margin: 0;
+	position: relative;
+	color: #ccffff;
+	padding: 25px 0 0 0;
+}
+
+ol.country li em {
+	display: block;
+	letter-spacing: .2em;
+	font-size: .9em;
+	text-transform: uppercase;
+	color: #fff;
+	margin: 0 0 -11px 0;
+}
+
+ol.country li strong {
+	display: block;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 900;
+	font-size: 2.4em;
+	color: #fff;
+	margin: 0 0 -5px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

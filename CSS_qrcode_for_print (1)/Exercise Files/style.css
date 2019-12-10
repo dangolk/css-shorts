@@ -1,0 +1,65 @@
+/* CSS Document */
+
+/*  This file was provided as part of a weekly web design tutorial series.
+	Sign-up for our newsletter, at http://codifydesign.com, to be notified
+	about new episodes.
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,900');
+
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 18px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400; 
+	color: #fff;
+	background-color: #245676;
+}
+
+h1 {
+	font-weight: 400;
+	font-size: 2.4em;
+	margin: 15px 0 10px 0;
+	letter-spacing: 1px;
+}
+
+p {
+	margin: 0 0 1em 0;
+}
+
+article {
+	margin: 0;
+	padding: 0 40px;
+}
+
+article > img {
+	width: calc(100% + 80px);
+	margin-left: -40px;
+}
+
+footer {
+	font-size: .7em;
+	margin: 45px 0 0 0;
+	padding-top: 10px;
+ 	border-top: 1px solid rgba(255,255,255,.2);
+}
+
+
+@media print {
+
+	body {
+		background-color: #fff;
+		color: #000;
+	}
+
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,68 @@
+/*  This file was provided as part of a weekly web design tutorial series.
+	Sign-up for our newsletter, at http://codifydesign.com, to be notified
+	about new episodes.
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700');
+
+html {
+	font-size: 16px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	line-height: 1.2;
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	padding: 20px;
+	background: #698dc7 url(images/background.jpg) no-repeat center bottom;
+	background-size: 100% auto;
+	background-attachment: fixed;
+	color: #fff;
+}
+
+h1 {
+	margin: 0;	
+}
+
+header p {
+	margin: 0 0 20px 0;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+}
+
+article {
+/*
+	display: flex;
+	flex-wrap: wrap;
+*/
+}
+
+article div {
+	margin: 0;
+	padding: 4px 4px 0 4px;
+/* 	width: 14.3%; */
+	border: 1px solid #fff;
+	margin: -1px 0 0 -1px;
+	box-sizing: border-box;
+}
+
+article div p {
+	font-size: .9rem;
+	margin: 0 0 10px 0;	
+}
+
+article div p:first-of-type {
+	font-size: .9rem;
+	font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+

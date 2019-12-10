@@ -1,0 +1,85 @@
+/*  This file was provided as part of a weekly web design tutorial series.
+	Sign-up for our newsletter, at http://codifydesign.com, to be notified
+	about new episodes.
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text');
+
+html {
+	height: 100%;
+	font-size: 17px;
+	line-height: 1.5;
+}
+
+body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: 'Crimson Text', serif;
+	transform-style: preserve-3d;
+}
+
+h1 {
+	font-size: 2.5rem;
+	text-transform: uppercase;
+	color: #fff;
+	line-height: .9;
+	position: absolute;
+	bottom: 30%;
+	left: 35px;
+	padding: 10px;
+	width: 100%;
+	background: linear-gradient(to left, rgba(37,61,87,.7) 70%, #253d57 80%);
+}
+
+h2 {
+	font-size: 1.618rem;
+	font-weight: 400;
+	margin: 0 0 .8rem 0;
+}
+
+p {
+	margin: 0 0 1rem 0;
+}
+
+main {
+	display: block;
+	overflow-x: hidden;
+}
+
+header {
+	height: 275px;
+	background: url('images/photo.jpg');
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+	padding: 1px 0;
+	box-sizing: border-box;
+}
+
+section {
+	padding: 20px 35px;
+	background: white;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

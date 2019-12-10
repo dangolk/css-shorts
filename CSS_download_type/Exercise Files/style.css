@@ -1,0 +1,44 @@
+/*  This file was provided as part of a weekly web design tutorial series.
+	Sign-up for our newsletter, at http://codifydesign.com, to be notified
+	about new episodes.
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Notable|Open+Sans+Condensed:300');
+
+html{
+	font-family: 'Open Sans Condensed', san-serif;
+	font-size: 18px;
+	line-height: 1.3;
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background: #2c6bb8 url(images/background.jpg) no-repeat center bottom;
+	background-size: 100% auto;
+	color: #fff;
+}
+
+h1 {
+	font-family: 'Notable', sans-serif;
+	font-size: 1.8rem;
+	margin: 0 0 10px 0;
+	letter-spacing: 4px;
+}
+
+p, ul {
+	margin: 0 0 1.5rem 0;
+}
+
+a {
+	color: #ffc600;
+	text-decoration: none;
+}
+
+article {
+	margin: 20px 50px 20px 50px;
+}
+
+
+

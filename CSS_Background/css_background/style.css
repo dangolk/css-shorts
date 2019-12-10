@@ -1,0 +1,24 @@
+/*  CSS Document  */
+
+/*  This file was provided as part of a weekly web design tutorial series.
+	Sign-up for our newsletter, at http://codifydesign.com, to be notified
+	about each new episode of CSS Shorts
+*/
+
+body {
+	padding-top: 30px;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 14px;
+}
+
+#container {
+	width: 90%; 
+	margin: 0 auto; padding-top: 50%;
+	border: 1px solid #ccc;
+}
+
+#container p {
+	margin: 0; padding: 20px;
+}
+
+

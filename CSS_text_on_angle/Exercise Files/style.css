@@ -1,0 +1,57 @@
+/* CSS */
+
+/*  This file was provided as part of a weekly web design tutorial series.
+	Sign-up for our newsletter, at http://codifydesign.com, to be notified
+	about new episodes.
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Lora:400,700');
+
+
+body {
+	background: #fff url(images/background.jpg) no-repeat -30px 0;
+	font-family: 'Lora', sans-serif;
+	font-size: 16px;
+}
+
+h1 {
+	margin: 0 0 35px 0px;
+	color: #fff;
+	font-size: 1.8em; 
+	font-weight: 700;
+	letter-spacing: 1px;
+}
+
+p {
+	margin: 0 0 1em 0;
+}
+
+article {
+	margin: 38px 20px 0 120px;
+}
+
+
+
+@media screen and (max-width: 450px) {
+
+	body {
+		background-position: -105px -20px;
+	}
+
+	h1 {
+		font-size: 1.4em;
+	}
+	
+	
+
+}
+
+
+
+
+
+
+
+
+
+

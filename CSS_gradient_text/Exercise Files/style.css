@@ -1,0 +1,75 @@
+/*  This file was provided as part of a weekly web design tutorial series.
+	Sign-up for our newsletter, at http://codifydesign.com/newsletter, to be notified
+	about new episodes.
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Bevan');
+
+html {
+	font-size: 19px;
+	line-height: 1.3;
+}
+
+body {
+	background: #000311 url(images/photo.jpg) no-repeat center top;
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: #858d9a;
+}
+
+article {
+	margin: 155px 65px 0 65px;
+}
+
+h1 {
+	font-family: 'Bevan', cursive;
+	text-transform: uppercase;
+	font-size: 4rem;
+	text-align: center;
+	margin: 0 0 .3rem 0;
+	color: #fff;
+}
+
+p {
+	margin: 0 0 1.4rem 0;
+}
+
+
+
+
+
+@media screen and (max-width: 600px) {
+
+	article { margin: 155px 45px 0 45px; }
+
+}
+
+@media screen and (max-width: 550px) {
+
+	h1 { font-size: 3.5rem; }
+
+}
+
+@media screen and (max-width: 450px) {
+
+	h1 { font-size: 2.8rem; }
+	article { margin: 155px 20px 0 20px; }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

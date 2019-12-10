@@ -1,0 +1,86 @@
+/*  This file was provided as part of a weekly web design tutorial series.
+	Sign-up for our newsletter, at http://codifydesign.com, to be notified
+	about each new episode of CSS Shorts  
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Aref+Ruqaa|Abel');
+
+html {
+  background: #000 url(images/background.jpg) no-repeat right bottom fixed;
+  background-size: cover;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.5em;
+  font-size: 16px;
+  font-family: 'Abel', sans-serif;
+  color: #fff;
+}
+
+p {
+  margin: 0;
+}
+
+form {
+  width: 75%;
+  margin: 25px auto 0 auto;
+}
+
+form h1 {
+	font-size: 2em;
+	margin: 0 0 25px 0;
+}
+
+form div {
+	margin: 0 0 20px 0;
+}
+
+form div:last-of-type {
+	margin-top: 20px;
+	padding-top: 20px;
+	border-top: 1px solid rgba(255,255,255,.2);
+}
+
+form input,
+form textarea {
+	padding: 5px 12px;
+	outline: none;
+	border: 1px solid rgba(0,0,0,0);
+	width: 80%;
+	color: #fff;
+	font-size: .9em;
+	background-color: #435547;
+}
+
+form input[type="submit"] {
+	width: auto;
+	padding: 5px 20px;
+	cursor: pointer;
+}
+
+form input[type="radio"] {
+	width: auto;
+	margin-right: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

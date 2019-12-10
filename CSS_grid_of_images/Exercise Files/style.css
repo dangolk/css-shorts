@@ -1,0 +1,39 @@
+/* CSS Document */
+
+/*  This file was provided as part of a weekly web design tutorial series.
+	Sign-up for our newsletter, at http://codifydesign.com, to be notified
+	about new episodes.
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Nova+Slim|Quicksand');
+
+body {
+	margin: 40px;
+	font-size: 16px;
+	font-family: 'Quicksand', sans-serif;
+	line-height: 1.3em;
+}
+
+h1 {
+	font-size: 3em;
+	font-family: 'Nova Slim', cursive;
+	margin: 0 0 .6em 0;
+	line-height: .9em;
+}
+
+p {
+	margin: 0 0 1em 0;
+}
+
+.photos {
+	margin: 20px 0;
+}
+
+.photos > div {
+	background-color: #eee;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 250px;
+	height: 125px;
+	margin: 5px;
+}

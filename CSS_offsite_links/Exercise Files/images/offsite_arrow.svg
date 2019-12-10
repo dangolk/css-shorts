@@ -1,0 +1,24 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+	<!--
+		This file was provided as part of a weekly web design tutorial series.
+		Sign-up for our newsletter, at http://codifydesign.com, to be notified
+		about each new episode of CSS Shorts
+	-->
+	 <defs>
+		<style type="text/css"><![CDATA[
+			polyline,
+			line
+			{
+				fill: none;
+				stroke: #888888;
+				stroke-linecap: round;
+				stroke-linejoin: round;
+				stroke-width: 10px
+			}
+		]]></style>
+	</defs>
+	<polyline points="85.918 54.863 85.918 91.696 8.651 91.696 8.651 14.429 45.485 14.429" />
+	<line x1="48.893" y1="50.922" x2="91.407" y2="8.408" />
+	<line x1="66.937" y1="8.386" x2="91.451" y2="8.386" />
+	<line x1="91.451" y1="8.542" x2="91.451" y2="33.055" />
+</svg>

@@ -1,0 +1,67 @@
+/*  This file was provided as part of a weekly web design tutorial series.
+	Sign-up for our newsletter, at http://codifydesign.com, to be notified
+	about each new episode of CSS Shorts  
+*/
+
+
+@import url('https://fonts.googleapis.com/css?family=Oxygen:300,700');
+
+
+html {
+	height: 100%;
+}
+
+body {
+	font-size: 16px;
+	line-height: 1.4em;
+	font-family: Oxygen; 
+	font-weight: 400;
+	background: #000 url(images/background.jpg) no-repeat 0 top;
+	background-size: cover;
+	color: #fff;
+}
+
+
+
+h1{
+	font-weight: 700;
+	font-size: 2.5em;
+	margin: 0 0 .5em 0;
+}
+
+
+
+article {
+	margin: 30px;
+	padding: 40px;
+	background-color: rgba(17, 33, 86, 0.5)
+}
+
+figure {
+	display: block;
+	margin: 0 0 20px 30px;
+	width: 220px;
+	float: right;
+}
+
+figcaption {
+	display: block;
+	margin: 10px 0 0 20px;
+	font-size: .9em;
+	line-height: 1.2em;
+	font-style: italic;
+}
+
+
+.piechart {
+	position: relative;
+	margin-left: 30px;
+	height: 180px;
+	width: 180px;
+}
+
+
+
+
+
+

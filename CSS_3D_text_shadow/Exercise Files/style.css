@@ -1,0 +1,32 @@
+/* CSS */
+
+/*  This file was provided as part of a weekly web design tutorial series.
+	Sign-up for our newsletter, at http://codifydesign.com, to be notified
+	about new episodes.
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab|Roboto');
+
+body {
+	background: #95defd;
+	font-family: 'Roboto', serif;
+	line-height: 1.7em;
+	font-size: 16px;
+}
+
+p {
+	font-size: 1.4rem;
+}
+
+article {
+	margin: 100px 60px 0 60px;
+}
+
+h1 {
+	font-family: 'Roboto Slab', serif;
+	font-weight: 600;
+	line-height: .9em;
+	font-size: 3.75em;
+	text-align: center;
+}
+

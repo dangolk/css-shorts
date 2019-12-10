@@ -1,0 +1,77 @@
+/* CSS */
+
+/*  This file was provided as part of a weekly web design tutorial series.
+	Sign-up for our newsletter, at http://codifydesign.com, to be notified
+	about new episodes.
+*/
+
+
+@import url('https://fonts.googleapis.com/css?family=Gruppo|Audiowide');
+
+body {
+	font-family: 'Gruppo', cursive;
+	letter-spacing: .1em;
+	background-color: #161d56;
+	color: #fff;
+	font-size: 18px;	
+}
+
+article {
+	margin: 90px 35px 0 35px;
+	padding: 25px 20px 10px 20px;
+	text-align: center;
+	border: 1px solid #fff;
+	border-radius: 6px;
+}
+
+h1 {
+	font-family: 'Audiowide', cursive;
+	letter-spacing: .2em;
+	font-size: 3em;
+	margin-bottom: 0;
+}
+
+p {
+	margin: 0 0 1em 0;; 
+}
+
+figure {
+	position: relative;
+	height: 170px;
+	margin: -65px 0 0 0;
+}
+
+figure img {
+	width: 65px;
+	height: 100px;
+	transform: rotate(32deg);
+	position: absolute;
+	top: -25px;
+	left: 50%;
+	margin-left: -3px;
+}
+
+.exhaust {
+	width: 60px;
+	height: 183px;
+	border: 1px solid #777;
+	background: url(images/exhaust.png) no-repeat 0 0;
+	background-size: 1946px 173px;
+	position: absolute;
+	top: -20px;
+	left: 20px;
+}
+
+
+
+
+@media (max-width: 460px) {
+
+	h1 { font-size: 2em; }	
+
+}
+
+
+
+
+

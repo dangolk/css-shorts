@@ -1,0 +1,82 @@
+/*  This file was provided as part of a weekly web design tutorial series.
+	Sign-up for our newsletter, at http://codifydesign.com, to be notified
+	about new episodes.
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,600');
+
+html{
+	font-size: 16px;
+	line-height: 1.2;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+h2 {
+	font-size: 1.1rem;
+	margin: 0 0 6px 0;
+	line-height: 1;
+	font-weight: 600;
+}
+
+p {
+	margin: 0;
+}
+
+article {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+section {
+	width: 25%;
+	padding: 0 20px;
+	box-sizing: border-box;
+	margin: 12px;	
+	border-right: 1px solid #ccc;
+	position: relative;
+	text-align: center;
+}
+
+section img {
+	width: 100px;
+	margin-bottom: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

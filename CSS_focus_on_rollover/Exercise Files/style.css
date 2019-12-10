@@ -1,0 +1,47 @@
+/*  This file was provided as part of a weekly web design tutorial series.
+	Sign-up for our newsletter, at http://codifydesign.com, to be notified
+	about new episodes.
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Frijole');
+
+html {
+	font-size: 16px;
+	line-height: 1.618;
+}
+
+body {
+	background: #3e1512 url(images/texture.jpg) 0 0;
+	font-family: 'Frijole', cursive;
+}
+
+h1 {
+	text-align: center;
+	margin: 30px 0 20px 0;
+	color: #fff;
+	font-size: 3.8rem;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: #ee4107;
+	opacity: .6;
+}
+
+#gallery {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 20px;
+}
+#gallery a {
+	display: inline-block;
+	width: 33%;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+#gallery a img {
+	width: 100%;
+}
+
+
+
+

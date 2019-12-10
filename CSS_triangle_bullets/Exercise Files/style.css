@@ -1,0 +1,65 @@
+/* CSS */
+
+/*  This file was provided as part of a weekly web design tutorial series.
+	Sign-up for our newsletter, at http://codifydesign.com, to be notified
+	about new episodes.
+*/
+
+
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Roboto');
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #faf9d9;
+	font-family:'Roboto', serif;
+	font-size: 16px;
+	color: #2f2f2a;
+	line-height: 1.2em;
+}
+
+p, ul {
+	margin: 0 0 1em 0;
+}
+
+header {
+	margin: 0;
+	padding: 1px 0;
+	background: #000 url(images/banner.jpg) no-repeat center 0;
+	background-size: cover;
+	height: 150px;
+	position: relative;
+	overflow: hidden;
+}
+
+h1 {
+	font-family: 'Abril Fatface', cursive;
+	font-size: 4.5em;
+	letter-spacing: 1px; 
+	color: #fff;
+	font-weight: 900;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	left: 50px;
+	top: 90px;
+}
+
+article {
+	margin: 20px 50px;
+	line-height: 1.3em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

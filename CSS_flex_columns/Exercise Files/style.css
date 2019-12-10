@@ -1,0 +1,88 @@
+/*  This file was provided as part of a weekly web design tutorial series.
+	Sign-up for our newsletter, at http://codifydesign.com, to be notified
+	about each new episode of CSS Shorts  
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Pinyon+Script|Abel');
+
+html {
+	background: #000 url(images/photo.jpg) no-repeat center bottom fixed;
+	background-size: cover;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 15px;
+	font-family: 'Abel', sans-serif;
+	line-height: 1.2em;
+	color: rgba(255,255,255,.8);
+}
+
+main {
+	margin: 15px 0;
+}
+
+h1 {
+	font-family: 'Pinyon Script', cursive;
+	font-weight: normal;
+	font-size: 4em;
+	color: #fff;
+	line-height: .8em;
+	padding-top: 40px;
+	margin: -15px 0 20px 0;
+	text-align: center;
+	background: linear-gradient(rgba(0,0,0,0) 50%, rgba(0,0,0,.2) 100%);
+}
+
+p {
+	margin: 0 0 1em 0;
+}
+
+section {
+	margin: 0 15px;
+}
+
+section > div {
+	padding: 18px;
+}
+
+section div h2 {
+	font-size: 1.2em;
+	border-bottom: 1px solid rgba(255,255,255,.2);
+}
+
+section div img {
+	float: left;
+	height: 3.4em;
+	margin-right: 10px;
+}
+
+
+
+@media screen and (max-width: 550px) {
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

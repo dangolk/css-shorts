@@ -1,0 +1,87 @@
+/*  This file was provided as part of a weekly web design tutorial series.
+	Sign-up for our newsletter, at http://codifydesign.com, to be notified
+	about new episodes.
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Aref+Ruqaa|Abel');
+
+html {
+  line-height: 1.2;
+  font-size: 17px;
+  font-family: 'Abel', sans-serif;  
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+	background: #000 url(images/background.jpg) no-repeat center bottom fixed;
+  background-size: cover;
+}
+
+h1 {
+  font-family: 'Aref Ruqaa', serif;
+  font-weight: normal;
+  font-size: 3em;
+  text-align: center;
+  margin: 0 0 20px 0;
+  letter-spacing: 2px;
+}
+
+h2 {
+  font-family: 'Aref Ruqaa', serif;
+  font-size: 1.3em;
+  margin: 1em 0 .5em 0;
+  color: #ef9d26;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+article {
+  margin: 20px 35px 0 35px;
+}
+
+
+.accordion {
+	margin: 20px;
+}
+
+.accordion .panel {
+	border: 1px solid #444;
+	margin: -1px 0 0 0;
+	background-color: rgba(0,0,0,.6);
+}
+
+.accordion .panel label {
+	cursor: pointer;
+	display: block;
+	font-weight: bold;
+	position: relative;
+	padding: 10px 20px 10px 34px;
+}
+
+.accordion .panel label::before {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 12px;
+	left: 12px;
+	width: 0;
+	height: 0;
+	border-top: 8px solid transparent;
+	border-bottom: 8px solid transparent;
+	border-left: 8px solid #666;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

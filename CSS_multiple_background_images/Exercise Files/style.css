@@ -1,0 +1,52 @@
+/*  This file was provided as part of a weekly web design tutorial series.
+	Sign-up for our newsletter, at http://codifydesign.com, to be notified
+	about new episodes.
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Graduate|Open+Sans');
+
+html{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	line-height: 1.4;
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background: #df8a0d;
+}
+
+h1 {
+	font-family: 'Graduate', serif;
+	font-size: 2rem;
+	line-height: 1;
+	margin: 0 0 -10px 0;
+}
+
+article {
+	background-color: rgba(84,49,19,.80);
+	color: #fff;
+	padding: 40px 30px 24px 40px;
+	margin: 155px 0 0 0;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	margin-left: calc(10% + 190px);
+}
+
+
+@media screen and (max-width: 540px) {
+
+	article {
+		margin: 290px 0 0 0;
+		margin-left: 10%;
+	}
+
+}
+
+
+
+
+
+

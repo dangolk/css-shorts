@@ -1,0 +1,54 @@
+/* CSS */
+
+/*  This file was provided as part of a weekly web design tutorial series.
+	Sign-up for our newsletter, at http://codifydesign.com, to be notified
+	about new episodes.
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Coustard|Lora');
+
+
+body {
+	font-family: 'Lora', serif;
+	color: #fff;
+	background-color: #000;
+	font-size: 15px;
+	line-height: 1.3em;
+}
+
+article {
+	margin: 25px;
+	padding: 20px 20px 30px 20px;
+}
+
+h1 {
+	font-family: 'Coustard', serif;
+	color: #89e5f3; 
+	line-height: 1.2em; 
+	font-size: 1.7em; 
+}
+
+p {
+	margin: 1rem 0 1rem 0rem;
+}
+
+figure {
+	display: block;
+	margin: 0;
+	width: 300px;
+	height: 300px;
+}
+
+img {
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,80 @@
+/*  CSS Document  */
+
+/*  This file was provided as part of a weekly web design tutorial series.
+	Sign-up for our newsletter, at http://codifydesign.com, to be notified
+	about each new episode of Creating Web Media
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	line-height: 1.3em;
+	color: #444;
+}
+
+h1 {
+	font-size: 2.4em;
+	margin: 30px 0 0 40px;
+	font-weight: 400;
+	color: #fff;
+	letter-spacing: 1px;
+}
+
+h2 {
+	font-size: 1.2em;
+	margin: 40px 0 .4em 0;
+}
+
+p {
+	margin: 0 0 1em 0;
+}
+
+a, a:visited {
+	color: #fff;
+}
+
+a:hover {
+	color: #16b84c;
+	text-decoration: none;
+}
+
+header {
+	margin: 0;
+	background: #d9e4df url(images/banner.jpg) no-repeat center 0;
+	height: 175px;
+	background-size: cover;
+	padding: 1px;
+}
+
+article {
+	margin: 20px 40px 0 40px;
+}
+
+footer {
+	margin: 50px 0 0 0;
+	padding: 25px 40px;
+	font-size: .9em;
+	color: rgba(255,255,255,.5);
+	background-color: #45482a;
+}
+
+footer a:first-of-type {
+	margin-right: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

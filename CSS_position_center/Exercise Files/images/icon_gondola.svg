@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 93.534 93.534">
+	<!--
+		This file was provided as part of a weekly web design tutorial series.
+		Sign-up for our newsletter, at http://codifydesign.com, to be notified
+		about each new episode of CSS Shorts
+	-->
+	<title>icon_gondola</title>
+	<circle cx="46.767" cy="46.767" r="43.767" style="fill: #233e71"/>
+	<path d="M72.45,12.752C71.145,13.8,36.218,23.847,5.832,32.6L5.8,30.366c34.786-10.036,65.053-18.951,66.808-19.9Z" style="fill: #fff"/>
+	<path d="M66.19,49.835c0-5.966-3.327-13.861-7.9-13.861l-11.137-.1L52,28.189l-.032-7.676-3.774.952.013,6.526-5.485,7.85-8.554-.074c-5.406.416-8.109,8.1-8.109,14.069V63.316c0,5.966,4.956,11.886,7.278,12.094L60.16,75.2c1.456,0,6.238-4.847,6.238-10.812ZM36.767,56.073H28.658V46.109A7.733,7.733,0,0,1,36.368,38.4h.4Zm15.283,0H40.2V38.4H52.05Z" style="fill: #fff"/>
+	<path d="M46.205,17.5c-.354-1.215.86-2.637,2.711-3.176s3.639.008,3.993,1.223" style="fill: #fff"/>
+	<circle cx="46.767" cy="46.767" r="43.767" style="fill: none;stroke: #6dcff6;stroke-width: 6px"/>
+</svg>

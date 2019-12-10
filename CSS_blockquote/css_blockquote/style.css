@@ -1,0 +1,53 @@
+/*  CSS Document  */
+
+/*  This file was provided as part of a weekly web design tutorial series.
+	Sign-up for our newsletter, at http://codifydesign.com, to be notified
+	about each new episode of CSS Shorts  
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Copse|Orbitron');
+
+body {
+	font-family: 'Copse', serif;
+	line-height: 1.3em;
+	font-size: 16px;	
+	margin: 0;
+	padding: 25px 0 50px 0;
+	font-family: 'Georgia', serif;
+	background: #090b50 url(images/stars.jpg) no-repeat 0 0;
+	background-size: cover;
+}
+
+article {
+	margin: 0 20px 0 160px;
+	color: rgba(255,255,255,.7);
+	padding: 30px;
+	border-radius: 20px;
+	background-color: rgba(0,0,0,.5);
+}
+
+h1 {
+	font-size: 1.8em;
+	margin: 0 0 20px 0;
+	color: #fff;
+	font-family: 'Orbitron', sans-serif;
+	letter-spacing: 2px;
+}
+
+blockquote {
+	width: 75%;
+	margin: 50px auto 80px auto;
+	line-height: 1.3em;
+	color: #fff;
+}
+
+blockquote cite {
+	color: rgba(255,255,255,.4);
+}
+
+blockquote cite::before {
+	content: '\2014';
+	padding-right: 5px;
+}
+
+

@@ -1,0 +1,93 @@
+/*  CSS Document  */
+
+/*  This file was provided as part of a weekly web design tutorial series.
+	Sign-up for our newsletter, at http://codifydesign.com, to be notified
+	about each new episode of CSS Shorts  
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Aref+Ruqaa|Abel');
+
+html {
+  background: #000 url(images/background.jpg) no-repeat center bottom fixed;
+  background-size: cover;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.5em;
+  font-size: 17px;
+  font-family: 'Abel', sans-serif;
+  color: #fff;
+}
+
+p {
+	margin: 0;
+}
+
+h1 {
+  font-family: 'Aref Ruqaa', serif;
+  font-weight: normal;
+  font-size: 3em;
+  text-align: center;
+  margin: 0 0 .8em 0;
+  word-spacing: 7px;
+}
+
+h2 {
+  font-size: 1.3em;
+  margin: 1em 0 .5em 0;
+  color: #ef9d26;
+}
+
+article {
+  margin: 20px 35px 0 35px;
+}
+
+#panels {
+	margin: 30px 0 0 0;
+}
+
+#panels nav {
+	margin-bottom: -1px;
+}
+
+#panels nav::after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+#panels label {
+	cursor: pointer;
+	display: inline-block;
+	color: #ef9d26;
+	padding: 6px 25px;
+	border: 1px solid #ef9d26;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	float: left;
+	transition: background-color .3s;
+}
+
+#panels label:hover {
+	background-color: rgba(255,255,255,.1);
+}
+
+#panels > div {
+	background-color: rgba(0,0,0,.6);
+	border: 1px solid #ef9d26;
+	padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

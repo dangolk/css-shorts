@@ -1,0 +1,99 @@
+/* CSS */
+
+/*  This file was provided as part of a weekly web design tutorial series.
+	Sign-up for our newsletter, at http://codifydesign.com, to be notified
+	about new episodes.
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,500,700');
+
+body {
+	background-color: #777;
+	font-family: 'Raleway', sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+}
+
+article {
+	text-align: center;
+	padding: 20px 0 0 0;
+}
+
+h1 {
+	color: #fff;
+	letter-spacing: 20px;
+	font-weight: 300;
+	text-transform: uppercase;
+	margin: 0 0 15px 0;
+}
+
+#gallery {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 10px;
+}
+
+#gallery > a {
+	display: block;
+	text-align: center;
+	background-color: #000;
+	color: #999;
+	text-decoration: none;
+	overflow: hidden;
+	font-size: .9rem;
+	letter-spacing: 1px;
+	transition: color .3s, background-color .3s;
+	width: 33%;
+}
+
+#gallery > a:hover {
+	background-color: #444;
+	color: #fff;
+}
+
+#gallery > a img {
+	width: 115%;
+	margin: -10px -20px 0 -20px;
+}
+
+#gallery > a p {
+	margin: 5px 0 0 0;
+}
+
+
+
+
+footer {
+	margin: 20px 0 0 0;
+	padding: 10px 0 0 0;
+	border-top: 1px solid #000;
+	text-align: center;
+}
+footer a {
+	color: #bbb;
+	text-decoration: none;
+}
+footer a:hover {
+	color: #fff;
+	text-decoration: underline;
+}
+
+
+
+@media screen and (max-width: 600px) {
+
+	h1 {
+		letter-spacing: 10px;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+

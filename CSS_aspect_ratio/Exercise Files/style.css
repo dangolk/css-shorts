@@ -1,0 +1,76 @@
+/*  This file was provided as part of a weekly web design tutorial series.
+	Sign-up for our newsletter, at http://codifydesign.com, to be notified
+	about new episodes.
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700');
+
+html{
+	font-size: 18px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	line-height: 1.3;
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background: #000 url(images/background_1_1.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+article {
+	background-color: rgba(0,0,0,.6);
+	padding: 18px 18px 8px 25px;
+	border-top: 2px solid #fff;
+	border-left: 2px solid #fff;
+	border-bottom: 2px solid #fff;
+	border-top-left-radius: 8px;
+	border-bottom-left-radius: 8px;
+	color: #fff;
+	width: 60%;
+	position: absolute;
+	bottom: 20%;
+	right: 0px;
+	box-sizing: border-box;
+}
+
+h1 {
+	font-size: 1.7rem;
+	font-weight: 400;
+	margin: 0;
+	line-height: 1;
+}
+
+h2 {
+	font-size: 1.25rem;
+	font-weight: 400;
+	margin: 0 0 .8rem 0;
+	line-height: 1;
+	color: #666;
+}
+
+h2:before {
+	content: 'By ';
+	font-weight: normal;
+	font-size: .9rem;
+	font-style: italic;
+	padding-right: 4px;
+}
+
+p {
+	margin: 0 0 .8rem 0;
+}
+
+img {
+	width: 200px;
+	border: 2px solid #fff;
+	display: block;
+	margin: 0 0 12px 0;
+	border-radius: 4px;
+}
+
+
+
+
+

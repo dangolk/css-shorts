@@ -1,0 +1,59 @@
+/*  This file was provided as part of a weekly web design tutorial series.
+	Sign-up for our newsletter, at http://codifydesign.com/newsletter, to
+	be notified about new episodes.
+*/
+@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash|Lato');
+
+html {
+	font-size: 16px;
+	font-family: 'Lato', sans-serif;
+	line-height: 1.61;
+}
+
+body {
+	background-color: #eaf2c4;
+	margin: 0px;
+	padding: 0px 50px;
+	color: rgba(0,0,0,.8);
+}
+
+h1 {
+	font-size: 3.7rem;
+	font-family: 'Berkshire Swash', cursive;
+	color: #8b2473;
+	margin: 0 0 1.6rem 0;
+}
+
+
+figure {
+	display: block;
+	width: 200px;
+	height: 200px;
+	margin: 0 0 10px 30px;
+	float: right;
+}
+
+figure img {
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

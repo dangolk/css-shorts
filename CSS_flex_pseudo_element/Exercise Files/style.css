@@ -1,0 +1,50 @@
+/*  This file was provided as part of a weekly web design tutorial series.
+	Sign-up for our newsletter, at http://codifydesign.com, to be notified
+	about each new episode.
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Nunito|Playball');
+
+html { height: 100%; }
+
+body {
+	font-family: 'Nunito', sans-serif;
+	background-color: #710708;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+h1 {
+	margin: 0 0 .1em 0;
+	font-size: 4em;
+	letter-spacing: 2px;
+	font-weight: normal;
+	text-align: center;
+}
+
+p {
+	margin: 0 0 1.3em 0;
+	line-height: 1.4em;
+}
+
+main {
+	height: 100%;
+}
+
+main article {
+	padding: 40px 40px 0 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,73 @@
+/*  This file was provided as part of a weekly web design tutorial series.
+	Sign-up for our newsletter, at http://codifydesign.com, to be notified
+	about new episodes.
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Cutive+Mono');
+
+html{
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+body {
+	background: #2c3702;
+	font-family: 'Cutive Mono', monospace;
+	color: rgba(255,255,255,.75);
+}
+
+article {
+	margin: 40px;
+	text-align: center;
+}
+
+h1 {
+	font-size: 3.5rem;
+	text-transform: uppercase;
+	letter-spacing: 7px;
+	margin: 0 0 10px 0;
+}
+
+
+
+
+
+@media screen and (max-width: 550px) {
+
+	
+
+}
+
+@media screen and (max-width: 450px) {
+	
+	article {
+		margin: 15px;
+	}
+	
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

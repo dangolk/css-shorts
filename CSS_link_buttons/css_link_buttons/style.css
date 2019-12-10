@@ -1,0 +1,55 @@
+/*  CSS Document  */
+
+/*  This file was provided as part of a weekly web design tutorial series.
+	Sign-up for our newsletter, at http://codifydesign.com, to be notified
+	about each new episode of CSS Shorts  
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,700');
+
+html {
+	height: 100%;
+	font-family: 'Raleway', sans-serif;
+}
+body {
+	font-size: 17px;
+	line-height: 1.25em;
+	background: #eee url(images/ferris_wheel.jpg) no-repeat 0 top;
+	background-size: cover;
+}
+article {
+	position: absolute;
+	left: 30px; bottom: 30px;
+	border: 2px solid #fff;
+	border-radius: 15px;
+	background-color: rgba(5,31,62,.85);
+	padding: 30px 30px;	
+	width: 40%;
+	
+	color: #a9c7ea;
+	
+}
+h1 {
+	margin: 0 0 .7em 0;
+	font-size: 1.7em;
+	letter-spacing: 1px;
+	font-weight: normal;
+	color: #fff;
+}
+p {
+	margin: 0 0 1em 0;
+}
+a {
+	color: #fff;
+}
+a:hover {
+	color: #fff;
+
+}
+
+
+
+
+
+
+

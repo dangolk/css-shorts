@@ -1,0 +1,41 @@
+/*  CSS Document  */
+
+/*  This file was provided as part of a weekly web design tutorial series.
+	Sign-up for our newsletter, at http://codifydesign.com, to be notified
+	about each new episode of CSS Shorts  
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Sofia');
+
+html { height: 100%; }
+
+body {
+	font-family: 'Open Sans', sans-serif; 
+	font-size: 16px;
+	color: #fff;
+	line-height: 1.5em;
+	background: #eee url(images/rocks.jpg) no-repeat 0 top fixed;
+	background-size: cover;
+	margin: 0;
+	padding: 0;
+}
+
+article {
+	margin: 0px auto;
+	background-color: rgba(56,42,35,.86);
+	padding: 100px 40px 25px 70px;	
+	width: 60%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

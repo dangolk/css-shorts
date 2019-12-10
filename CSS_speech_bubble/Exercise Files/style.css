@@ -1,0 +1,68 @@
+/*  This file was provided as part of a weekly web design tutorial series.
+	Sign-up for our newsletter, at http://codifydesign.com/newsletter,
+	to be notified about new episodes.
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond');
+
+html{
+	font-size: 17px;
+	line-height: 1.6;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #333869;
+	font-family: 'Cormorant Garamond', serif;
+}
+
+h1 {
+	font-size: 3rem;
+	line-height: 1.2;
+	font-weight: normal;
+	margin: 0;
+}
+
+article {
+	margin: 0 45px 0 45px;
+	background-color: #fff;
+	padding: 25px;
+	position: relative;
+	z-index: -2;
+}
+
+blockquote {
+	width: 125px;
+	padding: 40px;
+	position: relative;
+	font-size: 1.2rem;
+	line-height: 1.2;
+	margin: -20px -30px 105px 0px;
+	float: right;
+}
+blockquote cite {
+	font-size: .8rem;
+	font-weight: bold;
+	font-style: normal;
+	display: block;
+	position: absolute;
+	top: 86%;
+	color: #000;
+	z-index: -1;
+}
+
+blockquote cite img {
+	margin-bottom: 5px;
+	display: block;
+	width: 85px;
+	filter: brightness(120%);
+}
+
+p.credit {
+	font-size: .8rem;
+	line-height: 1.2;
+	font-style: italic;
+}
+
+

@@ -1,0 +1,56 @@
+/*  This file was provided as part of a weekly web design tutorial series.
+	Sign-up for our newsletter, at http://codifydesign.com, to be notified
+	about new episodes.
+*/
+
+
+@import url('https://fonts.googleapis.com/css?family=Open+sans|Joti+One');
+
+
+html{
+	font-size: 18px;
+	line-height: 1.6;
+}
+
+body {
+	font-family: 'Open sans', sans-serif;
+	color: #fff; 
+	margin: 0;
+	padding: 0;
+	background-color: #222;
+	
+}
+
+h1 {
+	font-family: 'Joti One', cursive;
+	text-align: center;
+	color: #cd8900;
+	font-size: 4.5rem;
+	margin: 0 0 .5rem 0;
+}
+
+p {
+	margin: 0 0 1rem 0;
+}
+
+article {
+	padding: 25px;
+}
+
+figure {
+	margin: 25px 0;
+	padding: 0;
+}
+
+figure div img {
+	display: block;
+	width: 100%;
+}
+
+figure figcaption {
+	font-size: .8rem;
+	font-style: italic; 
+	line-height: 1.2;
+	padding: 15px 0 5px 0;
+}
+

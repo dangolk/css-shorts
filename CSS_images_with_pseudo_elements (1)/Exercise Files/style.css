@@ -1,0 +1,49 @@
+/*  This file was provided as part of a weekly web design tutorial series.
+	Sign-up for our newsletter, at http://codifydesign.com, to be notified
+	about new episodes.
+*/
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.gallery {
+	text-align: center;
+	padding: 20px 0 0 0;
+}
+
+.gallery div {
+	display: inline-block;
+	width: 175px;
+	margin: 7px;
+}
+
+.gallery div img {
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,68 @@
+/*  This file was provided as part of a weekly web design tutorial series.
+	Sign-up for our newsletter, at http://codifydesign.com, to be notified
+	about each new episode of CSS Shorts  
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+html {
+	font-size: 14px;
+	line-height: 1;
+	font-family: 'Nunito', sans-serif;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background: #70154d;
+	color: #70154d;
+}
+
+h1 {
+	color: #fff;
+	text-align: center;
+	margin: 40px 0 10px 0;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+}
+
+p {
+	text-transform: uppercase;
+	margin: 0;
+	padding: 8px;
+}
+
+.gallery {
+	text-align: center;
+	padding: 20px 0 0 0;
+}
+
+.gallery div {
+	display: inline-block;
+	width: 155px;
+	margin: 12px;
+	position: relative;
+	border: 2px solid #fff;
+	background-color: #fff;
+}
+
+.gallery div img {
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
