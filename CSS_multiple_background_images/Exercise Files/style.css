@@ -15,7 +15,8 @@ html{
 body {
 	margin: 0;
 	padding: 0;
-	background: #df8a0d;
+	/* background: #df8a0d; */
+	background: url(images/bee.png) no-repeat 10% 100px / 140px 140px;
 }
 
 h1 {
