@@ -37,6 +37,14 @@ article {
     border-image-slice: 33.3%;
 }
 
+.repeat {
+    border-image-repeat: repeat;
+}
+
+.repeat-round {
+    border-image-repeat: round;
+}
+
 input#name::placeholder {
     color: #f00;
 }
