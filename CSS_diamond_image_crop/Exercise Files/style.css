@@ -2,58 +2,50 @@
 	Sign-up for our newsletter, at http://codifydesign.com/newsletter, to
 	be notified about new episodes.
 */
-@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash|Lato');
 
+@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash|Lato');
 html {
-	font-size: 16px;
-	font-family: 'Lato', sans-serif;
-	line-height: 1.61;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    line-height: 1.61;
 }
 
 body {
-	background-color: #eaf2c4;
-	margin: 0px;
-	padding: 0px 50px;
-	color: rgba(0,0,0,.8);
+    background-color: #eaf2c4;
+    margin: 0px;
+    padding: 0px 50px;
+    color: rgba(0, 0, 0, .8);
 }
 
 h1 {
-	font-size: 3.7rem;
-	font-family: 'Berkshire Swash', cursive;
-	color: #8b2473;
-	margin: 0 0 1.6rem 0;
+    font-size: 3.7rem;
+    font-family: 'Berkshire Swash', cursive;
+    color: #8b2473;
+    margin: 0 0 1.6rem 0;
 }
 
-
 figure {
-	display: block;
-	width: 200px;
-	height: 200px;
-	margin: 0 0 10px 30px;
-	float: right;
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin: 0 0 10px 30px;
+    float: right;
+    border: 1px solid #000;
+    transform: rotate(-5deg);
+    overflow: hidden;
 }
 
 figure img {
-	width: 100%;
+    width: 100%;
+    transform: rotate(5deg);
+    width: 141%;
+    margin-top: -20.5%;
+    margin-left: -20.5%;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.repeat {
+    border-image-repeat: repeat;
+    border: 35px solid #eaf2c4;
+    border-image: url(images/border.png);
+    border-image-slice: 33.3%;
+}
